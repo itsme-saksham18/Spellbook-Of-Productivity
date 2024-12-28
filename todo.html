@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spellbook of Productivity</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Spellbook of Productivity</h1>
+    </header>
+    
+    <section id="task-ip">
+        <h2>Conjure a New Task</h2>
+        <form id="task-form">
+            <label for="task">Task Description:</label>
+            <input type="text" id="task" placeholder="Conjure your magical task here..." required><br><br>
+    
+            <label for="priority-select">Select your priority:</label>
+            <select id="priority-select" name="priority">
+                <option value="very-urgent">Defence against Dark Arts (Very urgent)</option>
+                <option value="urgent">Potions (Urgent)</option>
+                <option value="normal">Charms (Normal)</option>
+                <option value="low">Transfiguration (Low)</option>
+                <option value="very-low">Divination (Very Low)</option>
+            </select><br><br>
+    
+            <label for="due-date">Due Date:</label>
+            <input type="date" id="due-date" required><br><br>
+    
+            <label for="category-select">Task Category:</label>
+            <select id="category-select" name="category">
+                <option value="entertainment">Quidditch (Entertainment)</option>
+                <option value="work">OWLS (Work)</option>
+                <option value="personal">The Common Room (Personal)</option>
+                <option value="family">The Burrow (Social/Family)</option>
+                <option value="miscellaneous">Room of Requirements (Miscellaneous)</option>
+            </select><br><br>
+    
+            <label for="task-details">Additional Notes:</label>
+            <textarea id="task-details" placeholder="Create spell details here..."></textarea><br><br>
+    
+            <button type="submit">Accio Task!</button>
+        </form>
+    </section>
+    
+    <!-- Sorting Section -->
+    <section id="task-sort">
+        <span>Sort Tasks<span>
+        <label for="sort-select">Sort by:</label>
+        <select id="sort-select">
+            <option value="priority">Priority</option>
+            <option value="dueDate">Due Date</option>
+        </select>
+    </section>
+    
+    <!-- Task List Section -->
+    <section id="task-list">
+        <h3>Task List</h3>
+        <ul>
+            <!-- Dynamic task list will appear here -->
+        </ul>
+    </section>
+
+    <!-- Hogwarts House Selection -->
+    <section id="theme">
+        <h3>Hogwarts House</h3>
+        <label for="house-select">Select a Hogwarts House:</label>
+        <select id="house-select" name="house">
+            <option value="default">No house allocated yet, Are you a squib?</option>
+            <option value="gryffindor">Gryffindor</option>
+            <option value="hufflepuff">Hufflepuff</option>
+            <option value="ravenclaw">Ravenclaw</option>
+            <option value="slytherin">Slytherin</option>
+        </select>
+    </section>
+
+    <footer>
+        <p id="foot">"It doesn't do to dwell on dreams and forget to live" ~ Dumbledore</p>
+    </footer>
+
+    <script src="todo.js"></script>
+</body>
+</html>

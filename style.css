@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Harry Potter', sans-serif, Arial;
+}
+body {
+    
+    background-color: violet; 
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+    /*background-image: url('https://www.w3schools.com/w3images/forest.jpg'); 
+    background-size: cover;*/
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ffcc00; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+#task-ip {
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+#task-ip h2 {
+    color: #ffcc00;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#task-form label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+#task-form input, #task-form select, #task-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: #fff;
+    font-size: 1rem;
+    color: #e6b800;
+}
+
+#task-form input[type="date"] {
+    background-color: #333;
+}
+
+#task-form button {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#task-form button:hover {
+    background-color: #e6b800;
+}
+
+#task-list {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#task-list ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+#task-list li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 5px solid #ffcc00;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+#task-list li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+#theme {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#theme h3 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+#theme select {
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+footer #foot {
+    font-style: italic;
+}
+
+a:hover, button:hover, select:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+#task-details, #task{
+    color: #e6b800;
+}
+
+footer{
+    color: #000;
+}
+
+#house-select, option{
+    color: black;
+}
+
+h3{
+    font-weight: 200;
+}
